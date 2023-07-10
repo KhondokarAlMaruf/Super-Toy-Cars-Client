@@ -9,8 +9,8 @@ const OurGallery = () => {
         Our Gallery
       </h1>
       <RacingCar></RacingCar>
-      <RegularCar></RegularCar>
       <PoliceCar></PoliceCar>
+      <RegularCar></RegularCar>
     </div>
   );
 };

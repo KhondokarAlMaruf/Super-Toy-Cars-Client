@@ -32,8 +32,13 @@ const Navbar = () => {
                   Log Out
                 </button>
               </>
-              <button className="border">
-                <Link className="btn btn-ghost normal-case text-xl">Login</Link>
+              <button>
+                <Link
+                  to={"login"}
+                  className="btn btn-ghost normal-case text-xl"
+                >
+                  Login
+                </Link>
               </button>
             </div>
           </div>
