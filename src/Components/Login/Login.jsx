@@ -24,6 +24,15 @@ const Login = () => {
         console.log(error);
       });
   };
+  const handleSignInGoogle = () => {
+    signInWithGoogle(provider)
+      .then((result) => {
+        const user = result.user;
+      })
+      .catch((error) => {
+        console.log(error.message);
+      });
+  };
 
   return (
     <div>
@@ -68,7 +77,12 @@ const Login = () => {
                   <button className="btn bg-sky-400">Login</button>
                 </div>
                 <div className="space-x-5 ms-28">
-                  <button className="btn btn-outline btn-info">Google</button>
+                  <button
+                    onClick={handleSignInGoogle}
+                    className="btn btn-outline btn-info"
+                  >
+                    Google
+                  </button>
                 </div>
                 <Link
                   to={"/register"}

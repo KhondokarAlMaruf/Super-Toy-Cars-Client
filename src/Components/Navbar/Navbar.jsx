@@ -57,11 +57,15 @@ const Navbar = () => {
             </div>
           </div>
           <div>
-            <div>
+            <div className="flex">
               {user ? (
                 <>
-                  <img src={user?.photoURL} alt="" />
-                  <span> {user?.email}</span>
+                  <img
+                    className="w-1/4 rounded-full"
+                    src={user?.photoURL}
+                    alt=""
+                  />
+                  {/* <span> {user?.displayName}</span> */}
                   <button
                     onClick={handleLogout}
                     className="border  btn btn-ghost normal-case text-xl"
