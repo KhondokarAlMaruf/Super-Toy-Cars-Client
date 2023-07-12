@@ -1,8 +1,12 @@
+import { useContext } from "react";
 import logo from "../../Images/super toy cars.png";
 
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../providers/AuthProviders";
 
 const Navbar = () => {
+  // const { user, logOut } = useContext(AuthContext);
+
   return (
     <div>
       <div>
