@@ -9,7 +9,8 @@ const Footer = () => {
           <h2 className="font-bold ">
             Super Toy Cars Ltd.
             <br />
-            Providing reliable tech since 1992
+            Pabna, Dhaka , Banladesh <br />
+            01750-708777
           </h2>
         </div>
         <div>

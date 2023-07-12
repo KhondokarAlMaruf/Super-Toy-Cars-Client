@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProviders";
 
 const Register = () => {
@@ -13,16 +13,42 @@ const Register = () => {
     const photo = form.photo.value;
     const email = form.email.value;
     const password = form.password.value;
-    console.log(name, photo, email, password);
+    // console.log(name, photo, email, password);
 
     createUser(email, password)
       .then((result) => {
         const loggedUser = result.user;
         console.log(loggedUser);
+        saveUserToDb(name, photo, email, password);
         form.reset();
       })
       .catch((error) => {
         console.log(error);
+      });
+  };
+
+  const saveUserToDb = (name, photo, email, password) => {
+    const user = {
+      name,
+      photo,
+      email,
+      password,
+    };
+    console.log(user);
+
+    fetch("http://localhost:5000/users", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(user),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.acknowledged) {
+          console.log(data);
+          //   Navigate("/");
+        }
       });
   };
   return (

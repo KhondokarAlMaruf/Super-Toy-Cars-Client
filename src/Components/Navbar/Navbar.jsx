@@ -3,8 +3,6 @@ import logo from "../../Images/super toy cars.png";
 
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProviders";
-import AddAToys from "../AddAToys/AddAToys";
-import MyToys from "../MyToys/MyToys";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
