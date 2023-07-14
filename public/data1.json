@@ -1,0 +1,138 @@
+[
+      {
+        "category_name": "Interceptor Squad Car",
+        "price": "$50",
+        "rating": "4.5",
+        "image":
+          "https://m.media-amazon.com/images/I/51owZQnueVL._AC_UF894,1000_QL80_.jpg"
+      },
+
+      {
+        "category_name": "Interceptor Squad Car",
+        "price": "$200",
+        "rating": "4.5",
+        "image":
+          "https://www.freepik.com/free-photos-vectors/car-wallpaper"
+      },
+
+      {
+        "category_name": "Guardian Patrol Cruiser",
+        "price": "$60",
+        "rating": "4.7",
+        "image":
+          "https://m.media-amazon.com/images/I/71TEVvSfBQL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "category_name": "Guardian Patrol Cruiser",
+        "price": "$600",
+        "rating": "4.7",
+        "image":
+          "https://m.media-amazon.com/images/I/71TEVvSfBQL._AC_UF1000,1000_QL80_.jpg"
+      },
+
+      {
+        "category_name": "Enforcer Tactical Vehicle",
+        "price": "$70",
+        "rating": "4.6",
+        "image": "https://m.media-amazon.com/images/I/61lsB80txkL.jpg"
+      },
+      {
+        "category_name": "Enforcer Tactical Vehicle",
+        "price": "$700",
+        "rating": "4.6",
+        "image": "https://m.media-amazon.com/images/I/61lsB80txkL.jpg"
+      },
+
+      {
+        "category_name": "Velocity Viper",
+        "price": "$80",
+        "rating": "4.8",
+        "image":
+          "https://images-na.ssl-images-amazon.com/images/I/81+HM8SSvSL._AC_UL600_SR600,600_.jpg"
+      },
+      {
+        "category_name": "Velocity Viper",
+        "price": "$880",
+        "rating": "4.8",
+        "image":
+          "https://images-na.ssl-images-amazon.com/images/I/81+HM8SSvSL._AC_UL600_SR600,600_.jpg"
+      },
+
+      {
+        "category_name": "Thunderbolt Racer",
+        "price": "$90",
+        "rating": "4.6",
+        "image":
+          "https://rukminim1.flixcart.com/image/850/1000/jiyvvrk0/vehicle-pull-along/6/x/s/heavy-duty-crazy-quick-runner-racing-thunderbolt-friction-original-imaf6kxqa3tmkdzg.jpeg?q=20"
+      },
+      {
+        "category_name": "Thunderbolt Racer",
+        "price": "$900",
+        "rating": "4.6",
+        "image":
+          "https://rukminim1.flixcart.com/image/850/1000/jiyvvrk0/vehicle-pull-along/6/x/s/heavy-duty-crazy-quick-runner-racing-thunderbolt-friction-original-imaf6kxqa3tmkdzg.jpeg?q=20"
+      },
+
+      {
+        "category_name": "Turbo Blaze GT",
+        "price": "$1900",
+        "rating": "4.5",
+        "image": "https://m.media-amazon.com/images/I/71GIjvv8Y3L.jpg"
+      },
+      {
+        "category_name": "Turbo Blaze GT",
+        "price": "$100",
+        "rating": "4.5",
+        "image": "https://m.media-amazon.com/images/I/71GIjvv8Y3L.jpg"
+      },
+
+      {
+        "category_name": "Classic Cruiser",
+        "price": "$110",
+        "rating": "4.5",
+        "image": "https://m.media-amazon.com/images/I/61mxMkVGubL.jpg"
+      },
+      {
+        "category_name": "Classic Cruiser",
+        "price": "$1510",
+        "rating": "4.5",
+        "image": "https://m.media-amazon.com/images/I/61mxMkVGubL.jpg"
+      },
+
+      {
+        "category_name": "City Commuter",
+        "price": "$120",
+        "rating": "4.9",
+        "image":
+          "https://cdn.shopify.com/s/files/1/0283/9805/9606/products/mb22freemanintercitycommuter7_530x@2x.jpg?v=1636280821"
+      },
+      {
+        "category_name": "City Commuter",
+        "price": "$14420",
+        "rating": "4.9",
+        "image":
+          "https://cdn.shopify.com/s/files/1/0283/9805/9606/products/mb22freemanintercitycommuter7_530x@2x.jpg?v=1636280821"
+      },
+      
+      {
+        "category_name": "Family Traveler",
+        "price": "$130",
+        "rating": "4.8",
+        "image":
+          "https://img.freepik.com/premium-photo/toy-travel-van-with-umbrella-yellow-background-with-plants-shadow-minimalistic-summer-family-travel-concept_150893-3335.jpg?w=2000"
+      },
+      {
+        "category_name": "Family Traveler",
+        "price": "$3330",
+        "rating": "3.8",
+        "image":
+          "https://img.freepik.com/premium-photo/toy-travel-van-with-umbrella-yellow-background-with-plants-shadow-minimalistic-summer-family-travel-concept_150893-3335.jpg?w=2000"
+      },
+      {
+        "category_name": "Family Traveler",
+        "price": "$23423430",
+        "rating": "4.8232323",
+        "image":
+          "https://time.com/4307769/google-getty-images/"
+      }
+  ]

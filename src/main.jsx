@@ -12,6 +12,8 @@ import Register from "./Components/Register/Register";
 import AuthProviders from "./providers/AuthProviders";
 import AddAToys from "./Components/AddAToys/AddAToys";
 import MyToys from "./Components/MyToys/MyToys";
+import ViewDetailsToy from "./Components/ShopCategory/ViewDetailsToy";
+import { Toaster } from "react-hot-toast";
 
 const router = createBrowserRouter([
   {
@@ -46,6 +48,12 @@ const router = createBrowserRouter([
         path: "/mytoys",
         element: <MyToys></MyToys>,
       },
+      {
+        path: "/view-details/:id",
+        loader: ({ params }) =>
+          fetch(`http://localhost:5000/toys/${params.id}`),
+        element: <ViewDetailsToy></ViewDetailsToy>,
+      },
     ],
   },
   {
@@ -58,6 +66,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <AuthProviders>
       <RouterProvider router={router} />
+      <Toaster />
     </AuthProviders>
   </React.StrictMode>
 );

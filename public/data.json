@@ -1,0 +1,18 @@
+[
+          {
+            "category": "Police Car",
+            "items": [
+      "Interceptor Squad Car",
+      "Guardian Patrol Cruiser",
+      "Enforcer Tactical Vehicle"
+    ]
+          },
+          {
+            "category": "Racing Car",
+            "items": ["Velocity Viper", "Thunderbolt Racer", "Turbo Blaze GT"]
+          },
+          {
+            "category": "Regular Car",
+            "items": ["Classic Cruiser", "City Commuter", "Family Traveler"]
+          }
+        ]
