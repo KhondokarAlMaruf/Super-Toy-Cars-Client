@@ -12,14 +12,6 @@ const SelectedItemDetails = ({ selectedItems }) => {
       <div className="grid md:grid-cols-3 grid-cols-1 gap-5 my-4">
         {selectedItems?.map((item, index) => (
           <div key={index}>
-            {/* <div>
-            <h3>{item.category_name}</h3>
-            <h3>{item?.seller_name}</h3>
-            <p>Price: {item.price}</p>
-            <p>Rating: {item.rating}</p>
-            <img className="w-1/3" src={item.image} alt={item.category_name} />
-            <Link to={`/view-details/${item._id}`}>View Details</Link>
-          </div> */}
             <div className="card w-96 bg-base-100 shadow-xl">
               <figure>
                 <img src={item?.image} alt={item.category_name} />

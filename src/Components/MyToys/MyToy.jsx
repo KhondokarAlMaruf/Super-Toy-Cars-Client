@@ -15,12 +15,6 @@ const MyToy = ({ car }) => {
   };
 
   return (
-    // <div>
-    //   <h2>{car.seller_name}</h2>
-    //   <h2>{car.seller_email}</h2>
-    //   <h2>{car.category_name}</h2>
-    //   <button onClick={() => deleteProduct(car._id)}>delete</button>
-    // </div>
     <div>
       <div className="card w-96 bg-base-100 shadow-xl">
         <figure>
