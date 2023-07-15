@@ -37,9 +37,9 @@ const ShopCategory = () => {
       <div className="">
         <Tabs forceRenderTabPanel defaultIndex={1}>
           <TabList>
-            <Tab>Police Car</Tab>
-            <Tab>Racing Car</Tab>
             <Tab>Regular Car</Tab>
+            <Tab>Racing Car</Tab>
+            <Tab>Police Car</Tab>
           </TabList>
           <TabPanel>
             <Tabs forceRenderTabPanel>
