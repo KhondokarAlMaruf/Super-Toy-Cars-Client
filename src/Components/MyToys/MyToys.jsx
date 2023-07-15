@@ -15,7 +15,9 @@ const MyToys = () => {
 
   return (
     <div>
-      <h2>My Toys:{cars.length}</h2>
+      <h1 className="text-center text-6xl font-semibold font-teko text-sky-500 leading-relaxed">
+        My Toys:{cars.length}
+      </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {cars.map((car, index) => (
           <MyToy key={index} car={car}></MyToy>
