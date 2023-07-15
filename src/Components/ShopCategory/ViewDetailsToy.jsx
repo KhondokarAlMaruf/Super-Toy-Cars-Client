@@ -10,7 +10,7 @@ const ViewDetailsToy = () => {
     // </div>
     <div>
       <div className="card lg:card-side bg-base-100 shadow-xl">
-        <figure className="w-1/3">
+        <figure className="w-80 h-72">
           <img src={toy?.image} alt="Album" />
         </figure>
         <div className="card-body">

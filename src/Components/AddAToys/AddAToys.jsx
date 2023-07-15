@@ -90,7 +90,7 @@ const AddAToys = () => {
                   })}
                   type="text"
                   className="input input-bordered w-full max-w-xs"
-                  placeholder="toy URL"
+                  placeholder="toy image URL"
                 />
                 {errors.toyURL && (
                   <span className="text-error">{errors.toyURL.message}</span>

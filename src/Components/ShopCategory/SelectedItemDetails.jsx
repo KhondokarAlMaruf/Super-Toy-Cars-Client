@@ -13,7 +13,7 @@ const SelectedItemDetails = ({ selectedItems }) => {
         {selectedItems?.map((item, index) => (
           <div key={index}>
             <div className="card w-96 bg-base-100 shadow-xl">
-              <figure>
+              <figure className="w-80 h-72">
                 <img src={item?.image} alt={item.category_name} />
               </figure>
               <div className="card-body">

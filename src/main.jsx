@@ -14,6 +14,7 @@ import AddAToys from "./Components/AddAToys/AddAToys";
 import MyToys from "./Components/MyToys/MyToys";
 import ViewDetailsToy from "./Components/ShopCategory/ViewDetailsToy";
 import { Toaster } from "react-hot-toast";
+import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -52,7 +53,12 @@ const router = createBrowserRouter([
         path: "/view-details/:id",
         loader: ({ params }) =>
           fetch(`http://localhost:5000/toys/${params.id}`),
-        element: <ViewDetailsToy></ViewDetailsToy>,
+        element: (
+          <PrivateRoute>
+            {" "}
+            <ViewDetailsToy></ViewDetailsToy>
+          </PrivateRoute>
+        ),
       },
     ],
   },

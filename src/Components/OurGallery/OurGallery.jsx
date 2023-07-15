@@ -4,7 +4,7 @@ import RegularCar from "./RegularCar/RegularCar";
 
 const OurGallery = () => {
   return (
-    <div>
+    <div className="m-20">
       <h1 className="text-center text-6xl font-semibold font-teko text-sky-500 leading-relaxed">
         Our Gallery
       </h1>
