@@ -19,6 +19,8 @@ const ViewDetailsToy = () => {
           <h2 className="card-title">Rating : {toy?.rating}</h2>
           <h2 className="card-title">Seller : {toy?.seller_name}</h2>
           <h2 className="card-title">Seller Email: {toy?.seller_email}</h2>
+          <h2 className="card-title">Quantity: {toy?.quantity}</h2>
+          <h2 className="card-title">Description: {toy?.description}</h2>
         </div>
       </div>
     </div>
