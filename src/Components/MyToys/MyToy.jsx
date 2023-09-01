@@ -3,7 +3,7 @@ import { toast } from "react-hot-toast";
 
 const MyToy = ({ car }) => {
   const deleteProduct = (id) => {
-    fetch(`http://localhost:5000/deleteproduct/${id}`, {
+    fetch(`https://super-toy-cars-server.vercel.app/deleteproduct/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

@@ -9,13 +9,13 @@ const ShopCategory = () => {
   const [selectedItems, setSelectedItems] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/category`)
+    fetch(`https://super-toy-cars-server.vercel.app/category`)
       .then((res) => res.json())
       .then((data) => setSubCategory(data));
   }, []);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/toys`)
+    fetch(`https://super-toy-cars-server.vercel.app/toys`)
       .then((res) => res.json())
       .then((data) => setCar(data));
   }, []);

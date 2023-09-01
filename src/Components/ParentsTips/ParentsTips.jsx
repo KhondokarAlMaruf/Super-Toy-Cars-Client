@@ -1,4 +1,3 @@
-import React from "react";
 import parent from "../../Images/parent.jpg";
 
 const ParentsTips = () => {
