@@ -5,11 +5,13 @@ import OurGallery from "../OurGallery/OurGallery";
 import ParentsTips from "../ParentsTips/ParentsTips";
 import ShopCategory from "../ShopCategory/ShopCategory";
 import Trending from "../Trending/Trending";
+import WhatsNew from "../WhatsNew/WhatsNew";
 
 const Home = () => {
   return (
     <div>
       <Banner></Banner>
+      <WhatsNew></WhatsNew>
       <ShopCategory></ShopCategory>
       <OurGallery></OurGallery>
       <ParentsTips></ParentsTips>

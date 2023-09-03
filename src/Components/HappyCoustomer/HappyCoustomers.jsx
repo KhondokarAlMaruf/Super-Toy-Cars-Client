@@ -1,6 +1,6 @@
 const HappyCoustomers = () => {
   return (
-    <div>
+    <div className="my-7">
       <h1 className="text-center text-6xl font-semibold font-teko text-sky-500 leading-relaxed">
         Happy Customers
       </h1>
