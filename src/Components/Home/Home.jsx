@@ -5,6 +5,7 @@ import OurGallery from "../OurGallery/OurGallery";
 import ParentsTips from "../ParentsTips/ParentsTips";
 import ShopCategory from "../ShopCategory/ShopCategory";
 import Trending from "../Trending/Trending";
+import VisitUs from "../VisitUs/VisitUs";
 import WhatsNew from "../WhatsNew/WhatsNew";
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <ShopCategory></ShopCategory>
       <OurGallery></OurGallery>
       <ParentsTips></ParentsTips>
+      <VisitUs></VisitUs>
       <Trending></Trending>
       <MostPopular></MostPopular>
       <HappyCoustomers></HappyCoustomers>

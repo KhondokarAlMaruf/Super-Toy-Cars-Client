@@ -33,10 +33,10 @@ const WhatsNew = () => {
             <img src={car2} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={car3} alt="" />
+            <img src={car4} alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={car4} alt="" />
+            <img src={car3} alt="" />
           </SwiperSlide>
           <SwiperSlide>
             <img src={car5} alt="" />
